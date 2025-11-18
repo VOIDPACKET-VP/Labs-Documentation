@@ -1,0 +1,15 @@
+# Lab: [TITLE]
+
+**Date:** YYYY-MM-DD  
+**Platform:** [PortSwigger/THM/etc]  
+**Difficulty:** [Apprentice/Practitioner/Expert]  
+**Vulnerability:** [SQLi/SSRF/XXE/etc]
+
+## Key Steps
+1. 
+2. 
+3. 
+
+## Payload
+
+## Lesson learned
