@@ -11,9 +11,9 @@
 
 	    🏆 247CTF Web Category DOMINATION
 
-		Progress: 6/14 solved (43%)
+		Progress: 7/14 solved (50%)
 
-		Remaining: 2 medium + 6 hard challenges
+		Remaining: 1 medium + 6 hard challenges
 
 		Building technical depth and problem-solving skills
 
@@ -68,7 +68,7 @@
 		Unique Angle: Tool built by someone who actually understands the vulnerabilities
 
 ## Web Development Track
-	    - Launch Personal Website
+	    - Launch Personal Website [DONE]
 
 		Showcase CTF write-ups, bug bounty findings, and projects
 
