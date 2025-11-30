@@ -1,3 +1,10 @@
+---
+vulnerability: XSS
+platform: XSS-Game
+difficulty: Medium
+date: 2025-11-30
+---
+
 # Level 1 : 
 
 `<script>alert()</script>`
