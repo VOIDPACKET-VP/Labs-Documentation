@@ -1,4 +1,9 @@
-```markdown
+---
+vulnerability: Authentication
+platform: BugForge
+difficulty: Medium
+date: 2025-11-07
+---
 # CTF: Broken Authentication - Timestamp Token Hijacking
 
 **Date:** 2024-11-07

@@ -1,3 +1,9 @@
+---
+vulnerability: SSTI
+platform: picoCTF
+difficulty: Medium
+date: 2025-11-23
+---
 # Lab: SSTI with Advanced Filter Bypass
 
 - Date: 2025-23-11

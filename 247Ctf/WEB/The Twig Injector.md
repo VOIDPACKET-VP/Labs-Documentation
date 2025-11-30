@@ -1,3 +1,9 @@
+---
+vulnerability: SSTI
+platform: 247CTF
+difficulty: Medium
+date: 2025-11-21
+---
 # Lab: Twig Template Injection with Character Filter Bypass
 - Date: 2025-21-11
 - Platform: 247CTF

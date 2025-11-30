@@ -1,4 +1,9 @@
-```markdown
+---
+vulnerability: SSRF
+platform: PortSwigger
+difficulty: Medium
+date: 2025-11-07
+---
 # Lab: SSRF with Filter Bypass via Double Encoding
 
 **Date:** 2024-11-07  

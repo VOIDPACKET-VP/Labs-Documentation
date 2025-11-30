@@ -1,3 +1,9 @@
+---
+vulnerability: Web Sockets
+platform: BugForge
+difficulty: Medium
+date: 2025-11-24
+---
 # Lab: Broken Access Control via WebSocket Message Preview Feature
 
 - Date: 2025-11-24

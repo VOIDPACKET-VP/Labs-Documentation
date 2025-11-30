@@ -1,4 +1,9 @@
-```markdown
+---
+vulnerability: JWT Manipulation
+platform: PortSwigger
+difficulty: Medium
+date: 2025-11-07
+---
 # Lab: JWT Authentication Bypass via JKU Injection
 
 **Date:** 2024-11-07  

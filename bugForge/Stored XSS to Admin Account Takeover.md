@@ -1,3 +1,9 @@
+---
+vulnerability: XSS
+platform: BugForge
+difficulty: Medium
+date: 2025-11-25
+---
 # Lab: Stored XSS to Admin Account Takeover
 
 - **Date**: 2025-11-25

@@ -1,3 +1,9 @@
+---
+vulnerability: LFI
+platform: BugForge
+difficulty: Easy
+date: 2025-11-08
+---
 # CTF: Local File Inclusion (LFI)
 
 **Date:** 2024-11-08

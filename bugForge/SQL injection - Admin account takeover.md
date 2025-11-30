@@ -1,3 +1,9 @@
+---
+vulnerability: SQLi
+platform: BugForge
+difficulty: Easy
+date: 2025-11-09
+---
 # Lab: SQL injection - Admin account takeover
 
 **Date:** 2025-11-09 

@@ -1,3 +1,10 @@
+---
+vulnerability: PHP Type Juggling
+platform: 247CTF
+difficulty: Medium
+date: 2025-11-16
+---
+
 # CTF: PHP Type Juggling with Magic Hashes
 - Date: 2025-11-16
 - Platform: 247CTF

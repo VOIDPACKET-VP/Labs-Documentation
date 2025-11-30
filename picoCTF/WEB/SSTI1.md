@@ -1,3 +1,9 @@
+---
+vulnerability: SSTI
+platform: picoCTF
+difficulty: Easy
+date: 2025-11-19
+---
 # Lab: Flask/Jinja2 SSTI Challenge
 - Date: 2025-19-11
 - Platform: picoCTF

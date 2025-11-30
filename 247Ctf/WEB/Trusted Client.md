@@ -1,3 +1,9 @@
+---
+vulnerability: Authentication
+platform: 247CTF
+difficulty: Medium
+date: 2025-11-21
+---
 # CTF: Client-Side Authentication Bypass
 ** Platform: 247CTF
 ** Difficulty: Easy/Medium

@@ -1,3 +1,10 @@
+---
+vulnerability: Race Condition
+platform: 247CTF
+difficulty: Medium
+date: 2025-11-19
+---
+
 # Lab: Race Condition & Type Juggling in Banking System
 - Date: 2025-19-11
 - Platform: 247CTF

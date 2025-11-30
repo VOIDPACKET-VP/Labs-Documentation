@@ -1,3 +1,9 @@
+---
+vulnerability: Info Disclosure
+platform: picoCTF
+difficulty: Easy
+date: 2025-11-16
+---
 # Lab: Source Code Analysis & Header Manipulation
 - Date: 2025-11-16
 - Platform: picoCTF

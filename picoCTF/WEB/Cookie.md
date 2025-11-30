@@ -1,3 +1,9 @@
+---
+vulnerability: IDOR
+platform: picoCTF
+difficulty: Easy
+date: 2025-11-19
+---
 # Lab: Cookie Enumeration & IDOR Vulnerability
 - Date: 2025-19-11
 - Platform: picoCTF

@@ -1,4 +1,9 @@
-```markdown
+---
+vulnerability: SQLi
+platform: PortSwigger
+difficulty: Medium
+date: 2025-11-07
+---
 # Lab: SQL Injection - Determining Column Count
 
 **Date:** 2024-11-07  

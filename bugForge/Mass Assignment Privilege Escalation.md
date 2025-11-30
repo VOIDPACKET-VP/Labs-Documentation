@@ -1,3 +1,9 @@
+---
+vulnerability: Mass Assignment
+platform: BugForge
+difficulty: Easy
+date: 2025-11-10
+---
 # CTF: Mass Assignment Privilege Escalation
 
 **Date:** 2025-11-10 

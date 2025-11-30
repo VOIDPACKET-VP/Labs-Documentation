@@ -1,3 +1,9 @@
+---
+vulnerability: Info Disclosure
+platform: 247CTF
+difficulty: Medium
+date: 2025-11-18
+---
 # CTF: Flask Session Information Disclosure
 
 **Platform: 247CTF

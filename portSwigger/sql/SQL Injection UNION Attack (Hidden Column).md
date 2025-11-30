@@ -1,3 +1,9 @@
+---
+vulnerability: SQLi
+platform: PortSwigger
+difficulty: Medium
+date: 2025-11-08
+---
 # Lab: SQL Injection UNION Attack (Hidden Column)
 
 **Date:** 2024-11-08  

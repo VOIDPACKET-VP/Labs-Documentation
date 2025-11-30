@@ -1,3 +1,10 @@
+---
+vulnerability: LFI
+platform: 247CTF
+difficulty: Medium
+date: 2025-11-17
+---
+
 # Lab: PHP LFI via File Descriptor Inclusion
 - Date: 2025-17-11
 - Platform: 247CTF

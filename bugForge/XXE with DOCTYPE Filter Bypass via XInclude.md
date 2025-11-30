@@ -1,3 +1,9 @@
+---
+vulnerability: XXE
+platform: BugForge
+difficulty: Medium
+date: 2025-11-23
+---
 # Lab: XXE with DOCTYPE Filter Bypass via XInclude
 
 - Date: 2025-23-11

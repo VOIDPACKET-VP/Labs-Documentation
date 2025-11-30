@@ -1,3 +1,9 @@
+---
+vulnerability: SSTI
+platform: PortSwigger
+difficulty: Medium
+date: 2025-11-20
+---
 # Lab: Server-Side Template Injection Using Documentation
 - Date: 2025-20-11
 - Platform: PortSwigger Academy

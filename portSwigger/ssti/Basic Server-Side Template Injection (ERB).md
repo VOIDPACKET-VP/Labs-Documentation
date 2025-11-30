@@ -1,3 +1,9 @@
+---
+vulnerability: SSTI
+platform: PortSwigger
+difficulty: Medium
+date: 2025-11-20
+---
 # Lab: Basic Server-Side Template Injection (ERB)
 - Date: 2025-20-11
 - Platform: PortSwigger Academy

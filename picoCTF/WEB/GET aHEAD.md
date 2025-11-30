@@ -1,3 +1,9 @@
+---
+vulnerability: Info Disclosure
+platform: picoCTF
+difficulty: Easy
+date: 2025-11-19
+---
 # Lab: HTTP Method Vulnerability - HEAD Request Exploitation
 - Date: 2025-19-11
 - Platform: picoCTF

@@ -1,3 +1,10 @@
+---
+vulnerability: JWT Manipulation
+platform: 247CTF
+difficulty: Medium
+date: 2025-11-16
+---
+
 # Lab: JWT Authentication Bypass
 - Date: 2025-11-16
 - Platform: 247CTF

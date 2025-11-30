@@ -1,4 +1,9 @@
-```markdown
+---
+vulnerability: XXE
+platform: PortSwigger
+difficulty: Medium
+date: 2025-11-07
+---
 **Date:** 2024-11-07  
 **Platform:** PortSwigger Academy  
 **Difficulty:** Practitioner  

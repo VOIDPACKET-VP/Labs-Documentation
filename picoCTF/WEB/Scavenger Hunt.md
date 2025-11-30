@@ -1,3 +1,9 @@
+---
+vulnerability: Info Disclosure
+platform: picoCTF
+difficulty: Easy
+date: 2025-11-19
+---
 # Lab: Information Disclosure Chain - Web Configuration Files
 - Date: 2025-19-11
 - Platform: picoCTF

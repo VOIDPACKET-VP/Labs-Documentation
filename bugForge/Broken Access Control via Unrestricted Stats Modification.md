@@ -1,3 +1,9 @@
+---
+vulnerability: BAC
+platform: BugForge
+difficulty: Easy
+date: 2025-11-14
+---
 # Lab: Broken Access Control via Unrestricted Stats Modification
 
 **Date:**2025-11-14
