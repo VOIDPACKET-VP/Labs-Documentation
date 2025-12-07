@@ -6,19 +6,19 @@ Transition from a self-taught researcher to a employed web application security 
 
 ## 📅 Quarterly Roadmap
 ### Q4 2025 - Q1 2026: The Foundation Sprint (Current Focus)
-✅ PWPA Certification: Obtain the Practical Web Application Penetrator certification.
-✅ VOIDLOCK (Backend MVP): Build and deploy a functional Node.js/Express backend for the VOIDLOCK fitness app, implementing core APIs (user auth, workout log, penalty system).
-✅ Web Galaxies Structure: Finalize the Galaxies (conceptual) and Cosmic Phenomena (exploit) structure for the VOIDPACKET-WEB-GALAXIES repo. Populate with completed guides.
-✅ Advanced Contributions: Submit at least 2 high-quality vulnerability reports or write-ups to the BugForge platform.
+- ✅ PWPA Certification: Obtain the Practical Web Application Penetrator certification.
+- ✅ VOIDLOCK (Backend MVP): Build and deploy a functional Node.js/Express backend for the VOIDLOCK fitness app, implementing core APIs (user auth, workout log, penalty system).
+- ✅ Web Galaxies Structure: Finalize the Galaxies (conceptual) and Cosmic Phenomena (exploit) structure for the VOIDPACKET-WEB-GALAXIES repo. Populate with completed guides.
+- ✅ Advanced Contributions: Submit at least 2 high-quality vulnerability reports or write-ups to the BugForge platform.
 
 ### Q2 2026: The "Build to Break" Phase
-VOIDLOCK Security Audit: Conduct a full penetration test on your own VOIDLOCK application. Document the process, findings, and remediations in a public case study.
-Backend Course Completion: Finish the comprehensive back-end development course, with all key concepts demonstrated within the VOIDLOCK codebase.
-Portfolio Polish: Ensure the VOIDLOCK and VOIDPACKET-WEB-GALAXIES repositories are professional, well-documented, and highlighted on your personal website/portfolio.
+- VOIDLOCK Security Audit: Conduct a full penetration test on your own VOIDLOCK application. Document the process, findings, and remediations in a public case study.
+- Backend Course Completion: Finish the comprehensive back-end development course, with all key concepts demonstrated within the VOIDLOCK codebase.
+- Portfolio Polish: Ensure the VOIDLOCK and VOIDPACKET-WEB-GALAXIES repositories are professional, well-documented, and highlighted on your personal website/portfolio.
 
 ### Q3 2026: The Job Sprint
-Entry-Level Web Pentester Role: Secure a position as a Junior Web Application Penetration Tester or Security Analyst.
-Continued Contribution: Maintain active participation and contribution within the BugForge/security research community.
+- Entry-Level Web Pentester Role: Secure a position as a Junior Web Application Penetration Tester or Security Analyst.
+- Continued Contribution: Maintain active participation and contribution within the BugForge/security research community.
 
 ## ⚙️ Core Projects & Assets
 These are the tangible outputs that will demonstrate capability.
