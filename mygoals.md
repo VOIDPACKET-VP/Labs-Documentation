@@ -42,5 +42,7 @@ Progress is measured by shipping, not just studying.
 4. 10+ resolved reports or meaningful contributions on BugForge.
 5. First technical interview for a web pentester role.
 
-Document last updated: December 2025
-This is a living document and will be updated as goals are met and new objectives are defined.
+---
+
+- Document last updated: December 2025
+- This is a living document and will be updated as goals are met and new objectives are defined.
