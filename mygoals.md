@@ -23,16 +23,16 @@ Transition from a self-taught researcher to a employed web application security 
 ## ⚙️ Core Projects & Assets
 These are the tangible outputs that will demonstrate capability.
 - VOIDLOCK Application:
-	Purpose: The flagship project proving full-stack development skill and a "build to break" security mindset.
-	Success Metrics: Functional deployed app, clean codebase, and a published security audit of it.
+	1. Purpose: The flagship project proving full-stack development skill and a "build to break" security mindset.
+	2. Success Metrics: Functional deployed app, clean codebase, and a published security audit of it.
 
 - VOIDPACKET-WEB-GALAXIES:
-	Purpose: A structured public knowledge base that demonstrates deep, conceptual understanding of vulnerabilities and secure coding.
-	Success Metrics: Clear "Galaxy" and "Phenomena" hierarchy with multiple complete, detailed guides.
+	1. Purpose: A structured public knowledge base that demonstrates deep, conceptual understanding of vulnerabilities and secure coding.
+	2. Success Metrics: Clear "Galaxy" and "Phenomena" hierarchy with multiple complete, detailed guides.
 
 - Professional Certification & Validation:
-	Purpose: External, industry-recognized validation of practical skills.
-	Success Metrics: PWPA certification, maintained public profiles (GitHub, BugForge) showcasing activity.
+	1. Purpose: External, industry-recognized validation of practical skills.
+	2. Success Metrics: PWPA certification, maintained public profiles (GitHub, BugForge) showcasing activity.
 
 ## 📈 Success Metrics
 Progress is measured by shipping, not just studying.
