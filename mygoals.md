@@ -1,103 +1,46 @@
-# Career Goals & Roadmap
+# 🎯 VOIDPACKET: Technical & Career Objectives (2025-2026)
+This document outlines the actionable path from researcher to professional, focused on building proof and securing a role.
 
-## Cybersecurity Track
-	- Short-Term (Next 3-6 months)
+## 🚀 Overarching Mission
+Transition from a self-taught researcher to a employed web application security professional by Q3 2026, using a public portfolio of projects and validated skills as the primary vehicle.
 
-	    🎓 PWPA Certification - TCM Practical Web Penetration Testing
+## 📅 Quarterly Roadmap
+### Q4 2025 - Q1 2026: The Foundation Sprint (Current Focus)
+✅ PWPA Certification: Obtain the Practical Web Application Penetrator certification.
+✅ VOIDLOCK (Backend MVP): Build and deploy a functional Node.js/Express backend for the VOIDLOCK fitness app, implementing core APIs (user auth, workout log, penalty system).
+✅ Web Galaxies Structure: Finalize the Galaxies (conceptual) and Cosmic Phenomena (exploit) structure for the VOIDPACKET-WEB-GALAXIES repo. Populate with completed guides.
+✅ Advanced Contributions: Submit at least 2 high-quality vulnerability reports or write-ups to the BugForge platform.
 
-		Status: Voucher secured, awaiting college tests completion
+### Q2 2026: The "Build to Break" Phase
+VOIDLOCK Security Audit: Conduct a full penetration test on your own VOIDLOCK application. Document the process, findings, and remediations in a public case study.
+Backend Course Completion: Finish the comprehensive back-end development course, with all key concepts demonstrated within the VOIDLOCK codebase.
+Portfolio Polish: Ensure the VOIDLOCK and VOIDPACKET-WEB-GALAXIES repositories are professional, well-documented, and highlighted on your personal website/portfolio.
 
-		Foundation for professional web app testing
+### Q3 2026: The Job Sprint
+Entry-Level Web Pentester Role: Secure a position as a Junior Web Application Penetration Tester or Security Analyst.
+Continued Contribution: Maintain active participation and contribution within the BugForge/security research community.
 
-	    🏆 247CTF Web Category DOMINATION
+## ⚙️ Core Projects & Assets
+These are the tangible outputs that will demonstrate capability.
+- VOIDLOCK Application:
+	Purpose: The flagship project proving full-stack development skill and a "build to break" security mindset.
+	Success Metrics: Functional deployed app, clean codebase, and a published security audit of it.
 
-		Progress: 7/14 solved (50%)
+- VOIDPACKET-WEB-GALAXIES:
+	Purpose: A structured public knowledge base that demonstrates deep, conceptual understanding of vulnerabilities and secure coding.
+	Success Metrics: Clear "Galaxy" and "Phenomena" hierarchy with multiple complete, detailed guides.
 
-		Remaining: 1 medium + 6 hard challenges
+- Professional Certification & Validation:
+	Purpose: External, industry-recognized validation of practical skills.
+	Success Metrics: PWPA certification, maintained public profiles (GitHub, BugForge) showcasing activity.
 
-		Building technical depth and problem-solving skills
+## 📈 Success Metrics
+Progress is measured by shipping, not just studying.
+1. PWPA exam passed.
+2. VOIDLOCK backend deployed publicly (e.g., on Railway/Render).
+3. 5+ complete guides in the VOIDPACKET-WEB-GALAXIES repo.
+4. 10+ resolved reports or meaningful contributions on BugForge.
+5. First technical interview for a web pentester role.
 
-	    🥇 BugForge #1 Rank
-
-		Current: #7 (competing against experienced professionals)
-
-		Key advantage: Platform reset on January 1st = fresh start!
-
-		Establishing dominance in competitive CTF environment
-
-	- Medium-Term (6-12 months)
-
-	    💼 First Real Intigriti Bug Bounty Report
-
-		Building on successful challenge report experience
-
-		Transitioning from CTFs to real-world security assessment
-
-	    💰 First Bug Bounty Payout
-
-		Professional validation of security skills
-
-		Transition from hobbyist to professional bug hunter
-
-	    🎓 Advanced TCM Certs (PWPP → PWPE)
-
-		Progressive mastery path in penetration testing
-
-		Establishing credentials as serious security practitioner
-
-	- Community & Contribution
-
-	    🛠️ CTF/Lab Creation for BugForge
-
-		OG Status: Recognized as early platform adopter
-
-		Official Invitation: "You are on the top of the list" - Alex (Owner)
-
-		Contribution: Helping shape the platform that ignited CTF passion
-
-		Vision: Creating challenges that teach real-world vulnerabilities
-
-	    ⚡ Custom Hacking Tool Development
-
-		Focus Areas: JWT exploitation & SSTI testing
-
-		Inspiration: Deep understanding from hands-on experience
-
-		Goal: Give back to community with specialized automation
-
-		Unique Angle: Tool built by someone who actually understands the vulnerabilities
-
-## Web Development Track
-	    - Launch Personal Website [DONE]
-
-		Showcase CTF write-ups, bug bounty findings, and projects
-
-		Digital resume and technical portfolio
-
-		Platform for community engagement
-
-	    - CTF Platform Development
-
-		BugForge Collaboration: Official lab testing and creation
-
-		Content Development: Leveraging video editing skills for engaging challenges
-
-		Community Building: Helping others learn through well-designed labs
-
-	    - Security Tool Development
-
-		JWT Tool Suite: Advanced token manipulation and testing
-
-		SSTI Scanner: Comprehensive template injection detection
-
-		Open Source Contribution: Giving back to the security community
-
-	    - Build Online Presence
-
-		Unique Advantage: Video editing + technical skills combination
-
-		Content Creation: CTF solutions, bug hunting vlogs, technical animations
-
-		Community Impact: Making security education accessible and engaging
-
-
+Document last updated: December 2025
+This is a living document and will be updated as goals are met and new objectives are defined.
