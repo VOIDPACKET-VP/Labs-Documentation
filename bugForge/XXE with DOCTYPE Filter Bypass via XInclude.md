@@ -86,3 +86,4 @@ Content-Type: multipart/form-data
 
 # Real-World Impact:
 - XInclude-based XXE bypasses are commonly missed in web application firewalls and can lead to complete file system access despite DOCTYPE filtering, demonstrating the importance of comprehensive XML security measures.
+
