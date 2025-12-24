@@ -7,7 +7,7 @@ Transition from a self-taught researcher to a employed web application security 
 ## 📅 Quarterly Roadmap
 ### Q4 2025 - Q1 2026: The Foundation Sprint (Current Focus)
 - ✅ PWPA Certification: Obtain the Practical Web Application Penetrator certification.
-- ✅ VOIDLOCK (Backend MVP): Build and deploy a functional Node.js/Express backend for the VOIDLOCK fitness app, implementing core APIs (user auth, workout log, penalty system).
+- ✅ VOIDLOCK (Backend MVP): Build and deploy a functional `Node.js/Express` backend for the VOIDLOCK fitness app, implementing core APIs (user auth, workout log, penalty system).
 - ✅ Web Galaxies Structure: Finalize the Galaxies (conceptual) and Cosmic Phenomena (exploit) structure for the VOIDPACKET-WEB-GALAXIES repo. Populate with completed guides.
 - ✅ Advanced Contributions: Submit at least 2 high-quality vulnerability reports or write-ups to the BugForge platform.
 
