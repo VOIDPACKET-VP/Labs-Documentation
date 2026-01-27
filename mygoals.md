@@ -1,48 +1,184 @@
-# 🎯 VOIDPACKET: Technical & Career Objectives (2025-2026)
-This document outlines the actionable path from researcher to professional, focused on building proof and securing a role.
+# VOIDPACKET: Blue Team & Defense-Focused Objectives (2025-2026)
 
-## 🚀 Overarching Mission
-Transition from a self-taught researcher to a employed web application security professional by Q3 2026, using a public portfolio of projects and validated skills as the primary vehicle.
+## New Perspective
 
-## 📅 Quarterly Roadmap
-### Q4 2025 - Q1 2026: The Foundation Sprint (Current Focus)
-- ✅ PWPA Certification: Obtain the Practical Web Application Penetrator certification.
-- ✅ VOIDLOCK (Backend MVP): Build and deploy a functional `Node.js/Express` backend for the VOIDLOCK fitness app, implementing core APIs (user auth, workout log, penalty system).
-- ✅ Web Galaxies Structure: Finalize the Galaxies (conceptual) and Cosmic Phenomena (exploit) structure for the VOIDPACKET-WEB-GALAXIES repo. Populate with completed guides.
-- ✅ Advanced Contributions: Submit at least 2 high-quality vulnerability reports or write-ups to the BugForge platform.
+Transition from general security research to focused defensive security, specializing in detection engineering, reverse engineering, and security operations. The goal is building deep technical skills for defense roles.
 
-### Q2 2026: The "Build to Break" Phase
-- VOIDLOCK Security Audit: Conduct a full penetration test on your own VOIDLOCK application. Document the process, findings, and remediations in a public case study.
-- Backend Course Completion: Finish the comprehensive back-end development course, with all key concepts demonstrated within the VOIDLOCK codebase.
-- Portfolio Polish: Ensure the VOIDLOCK and VOIDPACKET-WEB-GALAXIES repositories are professional, well-documented, and highlighted on your personal website/portfolio.
+## Core Learning Path
 
-### Q3 2026: The Job Sprint
-- Entry-Level Web Pentester Role: Secure a position as a Junior Web Application Penetration Tester or Security Analyst.
-- Continued Contribution: Maintain active participation and contribution within the BugForge/security research community.
+### 1. Certification Retake & Completion
 
-## ⚙️ Core Projects & Assets
-These are the tangible outputs that will demonstrate capability.
-- VOIDLOCK Application:
-	1. Purpose: The flagship project proving full-stack development skill and a "build to break" security mindset.
-	2. Success Metrics: Functional deployed app, clean codebase, and a published security audit of it.
+- **PWPA Certification**: Retake and pass the Practical Web Application Penetrator exam
+    
+- **SOC Courses**: Complete SOC 101 and SOC 201 foundational training
+    
+- **Blue Team Certs**: Obtain PSAA (Practical SOC Analyst) and PSAP (Practical SOC Professional) certifications
+    
 
-- VOIDPACKET-WEB-GALAXIES:
-	1. Purpose: A structured public knowledge base that demonstrates deep, conceptual understanding of vulnerabilities and secure coding.
-	2. Success Metrics: Clear "Galaxy" and "Phenomena" hierarchy with multiple complete, detailed guides.
+### 2. Reverse Engineering & Low-Level Skills
 
-- Professional Certification & Validation:
-	1. Purpose: External, industry-recognized validation of practical skills.
-	2. Success Metrics: PWPA certification, maintained public profiles (GitHub, BugForge) showcasing activity.
+- **Structured Learning**: Complete a formal x64 Assembly course
+    
+- **C Programming**: Develop proficiency in C through Codeforces challenges (50+ problems)
+    
+- **Competitive Programming**: Participate in first Codeforces Div3 contest
+    
+- **Challenge Creation**: Design and publish Reverse Engineering challenges on BugForge
+    
 
-## 📈 Success Metrics
-Progress is measured by shipping, not just studying.
-1. PWPA exam passed.
-2. VOIDLOCK backend deployed publicly (e.g., on Railway/Render).
-3. 5+ complete guides in the VOIDPACKET-WEB-GALAXIES repo.
-4. 10+ resolved reports or meaningful contributions on BugForge.
-5. First technical interview for a web pentester role.
+### 3. Blue Team Coding Projects
 
----
+**Phase 1: Foundations (Easy)**
 
-- Document last updated: December 2025
-- This is a living document and will be updated as goals are met and new objectives are defined.
+- **Log Parser**: Build a tool to parse and analyze system/application logs for suspicious patterns
+    
+- **PE/ELF Header Parser**: Create a binary analysis tool that extracts and validates executable headers
+    
+- **File Integrity Monitor (Basic)**: Implement a simple FIM that tracks file changes using hashes
+    
+
+**Phase 2: Core Skills (Medium)**
+
+- **Advanced FIM with real-time monitoring**: Enhance FIM with inotify/FindFirstChangeNotification
+    
+- **Packet Sniffer with protocol analysis**: Build a basic network analyzer using libpcap/PyShark
+    
+- **Custom Crackme Challenges**: Create and publish RE challenges on BugForge
+    
+- **Syscall Monitor**: Track and log suspicious system calls on Linux/Windows
+    
+- **Basic Keylogger (for educational purposes)**: Understand malware techniques to better defend against them
+    
+
+**Phase 3: Advanced (Hard)**
+
+- **Function Hooking Tool**: Implement DLL injection or LD_PRELOAD-based hooking
+    
+- **Process Monitor**: Track system processes and their behaviors for anomaly detection
+    
+- **Memory Scanner**: Detect shellcode/injections in process memory
+    
+- **YARA Rule Generator**: Create pattern-matching rules from malware samples
+    
+- **Basic RAT Client/Server (educational)**: Understand command and control mechanisms
+    
+
+**Phase 4: Specialization (Expert)**
+
+- **Rootkit Basics**: Study kernel-level programming and stealth techniques
+    
+- **Polymorphic Engine**: Understand self-modifying code and encryption layers
+    
+- **Process Hollowing**: Study code injection into legitimate processes
+    
+- **Code Obfuscator**: Automatically obfuscate C code to study evasion techniques
+    
+- **Stack Overflow Exploit Analysis**: Write and analyze buffer overflow vulnerabilities
+    
+
+### 4. Malware Development for Defense
+
+_Note: All malware development is for educational purposes in controlled environments_
+
+- Basic keylogger to understand user-space hooking
+    
+- RAT development to study C2 communication patterns
+    
+- Rootkit study for kernel defense understanding
+    
+- Polymorphic code analysis for AV evasion detection
+    
+
+## Timeline & Milestones
+
+### Phase 1: Foundation (Q4 2025 - Q1 2026)
+
+- Retake and pass PWPA certification
+    
+- Complete SOC 101 course
+    
+- Start x64 Assembly learning path
+    
+- Build Log Parser and PE/ELF Header Parser
+    
+- Publish first RE challenge on BugForge
+    
+
+### Phase 2: Development (Q2 2026)
+
+- Complete SOC 201 course
+    
+- Obtain PSAA certification
+    
+- Solve 50+ Codeforces problems in C
+    
+- Build Advanced FIM and Packet Sniffer
+    
+- Create and publish 3+ Crackme challenges
+    
+- Complete Arduino project
+    
+
+### Phase 3: Advanced Skills (Q3 2026)
+
+- Obtain PSAP certification
+    
+- Participate in Codeforces Div3 contest
+    
+- Build Function Hooking Tool and Process Monitor
+    
+- Develop Basic RAT for C2 analysis
+    
+- Create YARA Rule Generator
+    
+
+### Phase 4: Specialization (Q4 2026)
+
+- Study Rootkit techniques and defense
+    
+- Build Polymorphic Engine analysis tool
+    
+- Complete Process Hollowing study project
+    
+- Have comprehensive defensive tools portfolio
+    
+
+## Project Implementation Notes
+
+### Technology Stack by Project Type
+
+- **Parsers/Analyzers**: Python, C for performance-critical parts
+    
+- **System Tools**: C/C++ on Linux (syscalls, ptrace), C#/C++ on Windows (WinAPI)
+    
+- **Network Tools**: Python (Scapy), C (libpcap)
+    
+- **RE/Malware**: C, x64 Assembly, Python for automation
+    
+
+### Safety & Ethics Guidelines
+
+1. All potentially malicious code runs in isolated VMs
+    
+2. No testing on unauthorized systems
+    
+3. Clear educational purpose documentation
+    
+4. Focus on defensive applications of offensive knowledge
+    
+
+## Success Metrics
+
+- All four target certifications obtained (PWPA, PSAA, PSAP)
+    
+- 50+ Codeforces problems solved in C
+    
+- 3+ Reverse Engineering challenges published on BugForge
+    
+- Complete project portfolio across all difficulty levels
+    
+- Participation in competitive programming contest
+    
+- Working knowledge of x64 Assembly demonstrated through projects
+    
+- Regular contributions to security knowledge base
