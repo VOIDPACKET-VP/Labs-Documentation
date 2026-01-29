@@ -1,6 +1,6 @@
 ---
 platform: Codeforces
-difficulty: Easy
+difficulty: "900"
 date: 2026-01-28
 ---
 # Solution
