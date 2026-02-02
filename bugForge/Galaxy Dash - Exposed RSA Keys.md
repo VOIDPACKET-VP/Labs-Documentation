@@ -38,14 +38,12 @@ ffuf -request req.txt -w /usr/share/wordlists/dirb/common.txt
 **Findings:**
 
 `ffuf` returned a `200 OK` (but different content) for the `/auth` directory. I then recursively fuzzed inside `/auth` and discovered two critical endpoints:
-![[Screenshot (51).png]]
 
 - `/auth/public`
 - `/auth/private`
 
-![[Screenshot (54).png]]
 Sending the request to `services.internal-galaxydash-systems.io/auth/private` via the SSRF vulnerability leaked the **RSA Private Key** used to sign the application's JWTs.
-![[Screenshot (56).png]]
+
 ## 3. Exploitation
 
 With the private key in hand, the path to Admin access was clear. The application uses `RS256` (Asymmetric signing). Since I possess the private key, I can sign my own tokens that the server will accept as valid.
