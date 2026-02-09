@@ -7,27 +7,30 @@ date: 2026-02-07
 - C
 ```
 #include <stdio.h>
-int main(){
+int main() {
     int t, n;
     scanf("%d", &t);
-    for (int x = 0; x < t; x++){
+    while (t--) {
         scanf("%d", &n);
-        int array_a[100];
-        int count = 0;
-        for (int y = 0; y < n; y++){
-            scanf("%d", &array_a[y]);
+        int a[105];
+        for (int i = 0; i < n; i++) {
+            scanf("%d", &a[i]);
         }
-        for (int i = 0; i < n - 1; i++){
-            for (int j = i + 1; j < n; j++){
-                if (array_a[i] > array_a[j]){
-                    count++;
+        int total_ops = 0;
+        for (int j = 1; j < n; j++) {
+            int can_be_removed = 0;
+            for (int i = 0; i < j; i++) {
+                if (a[i] > a[j]) {
+                    can_be_removed = 1;
+                    break;
                 }
             }
+            if (can_be_removed) {
+                total_ops++;
+            }
         }
-        printf("%d\n", count);
+        printf("%d\n", total_ops);
     }
     return 0;
 }
 ```
-
-- This here didn't work for me for some reason, but it does what the challenges wants, so ... ?
