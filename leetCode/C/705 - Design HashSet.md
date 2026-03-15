@@ -4,7 +4,7 @@ difficulty: Easy
 date: 2026-03-06
 ---
 # Solution
-- C
+- C++
 - This is using Brute Force
 ```
 The simplest implementation uses a dynamic array to store all keys. For each operation, we search through the array linearly. This works correctly but is inefficient since every operation requires scanning potentially all stored elements.
