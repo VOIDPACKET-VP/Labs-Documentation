@@ -31,4 +31,3 @@ public:
 - The `to_string` is to transform an int to a string
 - The `.find()` is to find something from a starting position `i`
 - The `stoi` is to transform a string to an int
-- 
