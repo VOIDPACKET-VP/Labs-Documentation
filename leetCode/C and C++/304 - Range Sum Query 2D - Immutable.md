@@ -5,7 +5,7 @@ date: 2026-03-16
 ---
 # Solution
 - C++
-```
+```cpp
 class NumMatrix {
 private:
     std::vector<std::vector<int>> s;
