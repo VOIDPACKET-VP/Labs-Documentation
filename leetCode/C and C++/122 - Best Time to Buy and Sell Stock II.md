@@ -1,7 +1,7 @@
 ---
 platform: LeetCode
 difficulty: Medium
-date: 2026-08-09
+date: 2026-08-11
 ---
 # Description
 You are given an integer array `prices` where `prices[i]` is the price of a given stock on the `ith` day.
@@ -33,35 +33,23 @@ Find and return _the **maximum** profit you can achieve_.
 ```cpp
 class Solution {
 public:
-    vector<int> majorityElement(vector<int>& nums) {
-        size_t appearanceCount = nums.size() / 3; // because nums.size() returns a size_t type (unsigned int)
-        std::unordered_map<int, int> resultMap;
-        std::vector<int> resultArr;
-        for (auto& num : nums) {
-            if (!resultMap.contains(num)) resultMap[num] = 1;
-            else resultMap[num]++;  
-            bool exist = false;
-            if (resultMap.at(num) > appearanceCount) {
-                for (int i = 0; i < resultArr.size(); i++) {
-                    if (resultArr[i] == num){
-                        exist = true;
-                        break;
-                    }
-                }
-                if (!exist) {
-                    resultArr.push_back(num);
-                    exist = false;
-                }
+    int maxProfit(vector<int>& prices) {
+        int profit = 0;
+        for (int i = 1; i < prices.size(); i++) {
+            if (prices[i] > prices[i - 1]) {
+                profit += prices[i] - prices[i - 1];
             }
         }
-        return resultArr;
+        return profit;
     }
 };
 ```
 
 # Learned 
-## size_t
-- In C++, declaring `size_t appearanceCount = nums.size() / 3;` is highly recommended because `nums.size()` returns an unsigned `size_t` type, and matching this type prevents dangerous signed-to-unsigned mismatches. Forcing this value into a standard signed `int` introduces two critical risks: first, it can trigger an integer overflow if the container holds more than 2 billion elements, which silently flips the count into a negative number; second, it can cause severe logic bugs during downstream comparisons, as C++ will implicitly convert negative signed integers into massive unsigned values, causing conditional checks to fail unexpectedly.
+## Greedy Approach
+- The greedy approach works because holding a stock over multiple days of steady growth yields the exact same profit as buying and selling it every single day across that same period.
 
-## Notes on my solution
-- This code uses an intuitive ==**Frequency Map algorithm**==, but it runs slowly at **O(N²) time complexity** due to a nested loop that constantly scans the result array for duplicates. We can easily optimize this to **O(N) time** by simplifying the map counting syntax (`resultMap[num]++`) and waiting until the end of the program to run a single, separate loop to filter out the qualifying elements. While this hash map fix is highly efficient, the ultimate interview solution for this specific LeetCode problem uses the ==**Boyer-Moore Voting Algorithm**==, which tracks only two candidate variables to drop your memory usage down to **O(1) constant space**.
+- Because the problem allows same-day trading with zero transaction fees, you do not need to look ahead to find the absolute peaks and valleys; you simply harvest every immediate, consecutive-day price increase, which mathematically accumulates into the maximum possible global profit while automatically ignoring all downward drops.
+
+> Greedy approaches think about now, and don't worry about tomorrow
+
