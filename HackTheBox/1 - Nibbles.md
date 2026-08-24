@@ -1,7 +1,18 @@
 ---
-platform: Hack The Box
-difficulty: Easy
+layout: layouts/entry-detail.njk
+title: HTB — Nibbles
 date: 2026-08-15
+category: Web
+platform: HackTheBox
+difficulty: Easy
+tags:
+  - rce
+  - upload
+  - php
+  - PrivEsc
+summary: The First HTB Box you'll solve in the CPTS Path
+backLink: /writeups/
+backLabel: Writeups
 ---
 # About This Box
  An easy rated Linux box that showcases common enumeration tactics, basic web application exploitation, and a file-related misconfiguration to escalate privileges.
