@@ -7,7 +7,9 @@ platform: LeetCode
 difficulty: Medium
 tags:
   - stack
-summary: Collect daily price quotes for some stock
+  - Loops
+  - Sorting
+summary: Calculate car fleets
 backLink: /writeups/
 backLabel: Writeups
 ---
@@ -49,7 +51,53 @@ Return the number of car fleets that will arrive at the destination.
 # Solution
 - C++
 ```cpp
+class Solution {
 
+public:
+
+    int carFleet(int target, vector<int>& position, vector<int>& speed) {
+
+        int n = position.size();
+
+        if (n == 0) return 0;
+
+  
+
+        std::vector<std::pair<int, int>> cars;
+
+        cars.reserve(n);
+
+        for (int i = 0; i < n; ++i) {
+
+            cars.emplace_back(position[i], speed[i]);
+
+        }
+
+        std::sort(cars.begin(), cars.end());
+
+        std::stack<float> carStack;
+
+  
+
+        for (int i = n - 1; i >= 0; i--) {
+
+            float duration = static_cast<float>(target - cars[i].first) / cars[i].second;
+
+            if (carStack.empty() || duration > carStack.top()) {
+
+                carStack.push(duration);
+
+            }
+
+        }
+
+  
+
+        return carStack.size();
+
+    }
+
+};
 ```
 
 # Learned
