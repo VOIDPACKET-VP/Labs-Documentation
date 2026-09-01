@@ -1,7 +1,7 @@
 ---
 platform: LeetCode
 difficulty: Hard
-date: 2026-08-29
+date: 2026-09-01
 ---
 # Description
 Given `n` non-negative integers representing an elevation map where the width of each bar is `1`, compute how much water it can trap after raining.
@@ -26,9 +26,62 @@ Given `n` non-negative integers representing an elevation map where the width 
 - `0 <= height[i] <= 105`
 
 # Solution
-- C++
+- C
 ```c
+int trap(int* height, int heightSize)
 
+{
+
+    int left = 0;
+
+    int right = heightSize - 1;
+
+    int maxRight = height[right];
+
+    int maxLeft = height[left];
+
+    int trappedWater = 0;
+
+  
+
+    while (left < right)
+
+    {
+
+        if (maxLeft < maxRight)
+
+        {
+
+            left++;
+
+            maxLeft = maxLeft > height[left] ? maxLeft : height[left];
+
+            trappedWater += maxLeft - height[left];
+
+        }
+
+        else
+
+        {
+
+            right--;
+
+            maxRight = maxRight > height[right] ? maxRight : height[right];
+
+            trappedWater += maxRight - height[right];
+
+        }
+
+  
+
+    }
+
+  
+
+    return trappedWater;
+
+}
 ```
 
 # Learned
+Identify all key role factors, lay them down, and think a little 
